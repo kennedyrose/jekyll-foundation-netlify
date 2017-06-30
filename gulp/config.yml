@@ -1,6 +1,6 @@
 browsersync:
   notify: true
-  open:   false
+  open:   true
   port:   3000
   server:
     basedir: "_site/"
