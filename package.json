@@ -37,7 +37,8 @@
     "yargs": "^6.4.0"
   },
   "scripts": {
-    "start": "gulp",
+    "start": "npm run build && gulp",
+    "dev": "npm run build && gulp",
     "build": "gulp build --production",
     "test": "gulp build --production"
   },
