@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: kennedyrose/jekyll-foundation # Path to your Github repository
+  repo: kennedyrose/jekyll-foundation-netlify # Path to your Github repository
   branch: master # Branch to update (master by default)
 
 media_folder: "assets/uploads" # Folder where user uploaded files should go
