@@ -94,7 +94,13 @@ Images are not compressed or resized in any way. So make sure to do your optimiz
 
 ### Foundation Settings
 
-WIP
+By default, most of the Foundation settings are turned off to reduce the size of the JS and CSS files that are output. To turn on the features you need, uncomment lines of Sass located in:
+
+`assets/scss/foundation/_foundation.scss`
+
+If the feature you are trying to enable requires JavaScript as well, you can uncomment the feature in:
+
+`gulp/config.yml`
 
 ## Deployment
 
