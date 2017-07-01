@@ -31,6 +31,7 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.2.0",
     "gulp-uglify": "^2.0.0",
+    "jquery": "^3.2.1",
     "js-yaml": "^3.5.4",
     "motion-ui": "~1.2",
     "require-dir": "^0.3.1",
