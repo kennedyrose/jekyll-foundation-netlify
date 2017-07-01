@@ -29,7 +29,9 @@ You only need to do this once after cloning the repository.
 
 ## Development
 
-Start development on your local machine with: `yarn dev`
+Start development on your local machine with: `yarn dev`.
+
+You can stop the development task by pressing <kbd>ctrl</kbd>+<kbd>c</kbd> in the terminal.
 
 ## Useful File Locations
 
@@ -44,6 +46,12 @@ You can also create additional layouts for other page types you create in the `_
 
 ### Sass
 
+The main Sass file is located in `assets/scss/app.scss`. The other directories in `assets/scss/` optionally show you how you can keep your Sass files seperated for more managable code.
 
+If you do create a new Sass file, make sure to import it in the `app.scss` file or it will not get transpiled into CSS and therefore not exist on the site.
+
+### Images
+
+### Foundation Settings
 
 [Getting started](https://github.com/core77/jekyll-foundation/wiki/Getting-started)
