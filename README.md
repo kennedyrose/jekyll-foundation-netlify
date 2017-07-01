@@ -105,6 +105,9 @@ Netlify CMS offers a better way for non tech-savvy clients to edit their website
 WIP
 
 ## Additional resources
+- [Foundation Docs](http://foundation.zurb.com/sites/docs/)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Jekyll Docs](http://jekyllrb.com/docs/home/)
+- [Netlify CMS Docs](https://www.netlifycms.org/docs/)
 - [Original Repository](https://github.com/core77/jekyll-foundation)
 - [Original Documentation](https://github.com/core77/jekyll-foundation/wiki/Getting-started)
