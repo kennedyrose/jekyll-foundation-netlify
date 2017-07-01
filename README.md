@@ -90,6 +90,8 @@ Images should go in the `assets/img/` directory. The URL will stay the same, so 
 
 `<img src="/assets/img/your-image.jpg" />`
 
+Images are not compressed or resized in any way. So make sure to do your optimizations during development.
+
 ### Foundation Settings
 
 WIP
