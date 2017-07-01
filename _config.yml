@@ -29,7 +29,7 @@ exclude:
   - "yarn.lock"
 
 # Plugins
-gems:             ["jekyll-sitemap", "jekyll-paginate"]
+plugins:             ["jekyll-sitemap", "jekyll-paginate"]
 
 # Conversion
 incremental:      true
