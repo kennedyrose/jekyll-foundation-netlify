@@ -104,7 +104,10 @@ If the feature you are trying to enable requires JavaScript as well, you can unc
 
 ## Deployment
 
-WIP
+Deployment through Netlify is fairly simple. [Signup/login at their website](https://www.netlify.com/) and just follow the instructions. You will basically just tell Netlify where your website repository is and it will do the rest of the work. Use the following settings when asked:
+
+- Build command: `gulp build --production`
+- Publish directory: `_site/`
 
 ## Editing Content with Netlify CMS
 
