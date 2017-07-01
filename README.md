@@ -86,7 +86,9 @@ If you do create a new Sass file, make sure to import it in the `app.scss` file 
 
 ### Images
 
-WIP
+Images should go in the `assets/img/` directory. The URL will stay the same, so you can place images in your templates with:
+
+`<img src="/assets/img/your-image.jpg" />`
 
 ### Foundation Settings
 
@@ -97,6 +99,8 @@ WIP
 WIP
 
 ## Editing Content with Netlify CMS
+
+Netlify CMS offers a better way for non tech-savvy clients to edit their website's content.
 
 WIP
 
