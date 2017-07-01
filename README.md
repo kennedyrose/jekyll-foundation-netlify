@@ -23,6 +23,9 @@ $ cd your-project-name
 
 $ # Install all dependencies for the project
 $ yarn
+
+$ # Create a new Github repository and point your local copy there
+$ git remote set-url origin git@github.com:your-project-repo
 ```
 
 You only need to do this once after cloning the repository.
@@ -46,11 +49,34 @@ You can also create additional layouts for other page types you create in the `_
 
 ### Page Content
 
-WIP
+All page content is written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). The markdown is converted to HTML and can still be styled like you normally do with CSS.
 
-### Blog Pages
+Pages are located in the `_pages/` directory.
 
-WIP
+There are variables at the top of each `.md` file that will direct the system on which layout to use (from `_layouts/`), what the title of the page is and what the URL of the page should be.
+
+The top of a markdown file might look something like this:
+
+```markdown
+---
+permalink: /about-us/
+layout: page
+title: About Our Company
+---
+```
+
+
+### Blog Posts
+
+Blog pages are pretty much identical to standard pages.
+
+They are located in the `_posts/` directory.
+
+The only difference is that blog posts have the date prepending the file name. So a blog file name might look something like:
+
+`2016-03-22-first-post.md`
+
+Dates are formatted as `year-month-day`.
 
 ### Sass
 
@@ -75,5 +101,6 @@ WIP
 WIP
 
 ## Additional resources
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Original Repository](https://github.com/core77/jekyll-foundation)
 - [Original Documentation](https://github.com/core77/jekyll-foundation/wiki/Getting-started)
