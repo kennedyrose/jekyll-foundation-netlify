@@ -113,7 +113,9 @@ Deployment through Netlify is fairly simple. [Signup/login at their website](htt
 
 Netlify CMS offers a better way for non tech-savvy clients to edit their website's content.
 
-WIP
+To enable Netlify CMS, follow the instructions on [Authenticating with Github](https://www.netlifycms.org/docs/quick-start/).
+
+Once that's done, you can go to `yoursite.com/admin` and just login through Github to edit content. You will set up each client with their own Github account and perform the authentication step to make sure they have access.
 
 ## Additional resources
 - [Foundation Docs](http://foundation.zurb.com/sites/docs/)
