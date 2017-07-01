@@ -1,7 +1,7 @@
 {
   "name": "jekyll-foundation-netlify",
   "version": "0.4.0",
-  "description": "Starting point for a Jekyll site that uses Zurb Foundation's Sass.",
+  "description": "Starting point for a Jekyll site that uses Zurb Foundation's Sass with Netlify CMS.",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
