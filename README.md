@@ -44,6 +44,14 @@ You can stop the development task by pressing <kbd>ctrl</kbd>+<kbd>c</kbd> in th
 
 You can also create additional layouts for other page types you create in the `_layouts` directory.
 
+### Page Content
+
+WIP
+
+### Blog Pages
+
+WIP
+
 ### Sass
 
 The main Sass file is located in `assets/scss/app.scss`. The other directories in `assets/scss/` optionally show you how you can keep your Sass files seperated for more managable code.
@@ -52,6 +60,20 @@ If you do create a new Sass file, make sure to import it in the `app.scss` file 
 
 ### Images
 
+WIP
+
 ### Foundation Settings
 
-[Getting started](https://github.com/core77/jekyll-foundation/wiki/Getting-started)
+WIP
+
+## Deployment
+
+WIP
+
+## Editing Content with Netlify CMS
+
+WIP
+
+## Additional resources
+- [Original Repository](https://github.com/core77/jekyll-foundation)
+- [Original Documentation](https://github.com/core77/jekyll-foundation/wiki/Getting-started)
