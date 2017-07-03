@@ -73,6 +73,8 @@ title: About Our Company
 
 ### Blog Posts
 
+**Note**: You can skip this section if you're planning on using the Netlify CMS.
+
 Blog pages are pretty much identical to standard pages.
 
 They are located in the `_posts/` directory.
