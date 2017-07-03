@@ -4,7 +4,9 @@ Quickstart your Jekyll (v3) project with Zurb Foundation for Sites (v6, sass) an
 
 ## Getting Started
 
-1. Install [Ruby and Ruby Gems](https://rvm.io/rvm/install)
+1. Agree to Xcode terms with: `sudo xcodebuild -license`
+1. Install [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+1. Install [Ruby and Ruby Gems](https://rvm.io/rvm/install) with: `brew install ruby`
 1. Install [Jekyll](http://jekyllrb.com/) with: `gem install jekyll`
 1. Install [Bundler](http://bundler.io/) with: `gem install bundler` (mac users may need to install with `sudo gem install bundler`)
 1. Install [Node.js](https://nodejs.org/en/)
